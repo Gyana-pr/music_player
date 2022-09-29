@@ -1,0 +1,497 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+span{
+    color: white;
+}
+
+i{
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+.hover-block{
+    background-color: #222c26;
+}
+
+.hover-block:hover{
+    background-color: #2e3d34;
+}
+
+
+/* NAVBAR */
+
+#navbar{
+    height: 7vh;
+    /* border: 1px groove #193753; */
+    margin-bottom: 5px;
+    position: relative;
+    /* background-image: linear-gradient(#38434e,#324b63,#093053); */
+    background-color: #1DB954;
+}
+
+.navbar-logo img{
+    height: 6vh;
+    width: 3vw;
+    border-radius: 50%;
+    margin-left: 1vw;
+    /* float: left; */
+}
+
+.navbar-logo{
+    display: inline-block;
+}
+
+.searchbar{
+    /* margin-left: 70vw;
+    margin-right: 1vw; */
+    /* width: 20vw; */
+    position: absolute;
+    right: 10vw;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+input{
+    background-color: #191414;
+    border-radius: 10%;
+}
+
+/* .user-logo img{
+    float:right
+} */
+
+.favorite{
+    margin-left: 12vw;
+    /* margin: 0; */
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.notification i{
+    height: 5vh;
+    margin-right: 1vw;
+    position: absolute;
+    right: 6vw;
+    top: 2vh;
+    /* color: white; */
+}
+
+.user-logo img{
+    position: absolute;
+    right: 2vw;
+    top: 0vh;
+}
+
+#navbar span{
+    color: #191414;
+}
+#navbar i{
+    color: #191414;
+}
+
+/* BODY  */
+
+.body{
+    background-color: #191414;
+    position: relative;
+    top: -0.8vh;
+}
+
+.body-child{
+    display: inline-block;
+}
+/* LEFT BODY  */
+
+
+.left-body{
+    height: 92vh;
+    width: 62vw;
+    /* border: 1px solid #191414; */
+    position: sticky;
+    margin-right: 2vw;
+}
+ 
+/* POSTER SECTION  */
+
+.poster{
+    height: 40vh;
+    width: 60vw;
+    /* border: 1px solid #191414; */
+    /* margin-bottom: 1vh; */
+    padding: 0.4vmax;
+    background-color: #222c26;
+    margin-left: 1vmax;
+
+}
+
+/* POSTER IMAGE  */
+
+.poster img{
+    height: 39vh;
+    width: 22vw;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+.poster-child{
+    display: inline-block;
+}
+
+/* POSTER CONTENT  */
+
+.poster-content{
+    height: 38vh;
+    width: 35vw;
+    /* border: 1px solid #191414; */
+    position: relative;
+    top: -1vh;
+}
+
+.poster-content-heading{
+    height: 7vh;
+    width: 34vw;
+    /* border: 1px solid #191414; */
+    
+}
+
+.poster-content-heading h2{
+    position: relative;
+    top: 0vh;
+    right: -1vw;
+}
+
+.poster-content-heading h5{
+    position: relative;
+    top: 0vh;
+    right: -1vw;
+}
+
+.poster-content-heading h6{
+    position: relative;
+    top: -5vh;
+    right: -28vw;
+}
+
+.poster-content-q{
+    height: min-content;
+    width: 33vw;
+    /* border: 1px solid #191414; */
+    margin-left: 1vmax;
+    margin-top: 1vh;
+    word-spacing: 0.1rem;
+}
+
+.botton{
+    margin: 1vmax;
+    display: inline-block;
+}
+.play-all{
+    width: 11vw;
+    height: 9vh;
+    background-color: #1DB954;
+}
+
+
+.follow{
+    /* border: 1px solid black; */
+    position: relative;
+    right: -8vmax;
+    bottom: 6vh;
+}
+
+/* LEFT CONTAINT / MUSIC */
+
+.left-containt{
+    height: 48vh;
+    width: 60vmax;
+    /* border: 1px solid #191414; */
+    padding: 0.4vmax;
+    margin-left: 0.6vw;
+}
+
+/* MUSIC SECTION  */
+
+.box{
+    height: 8vh;
+    width: inherit;
+    /* border: 1px solid black; */
+    padding: .2vmax;
+    display: flex;
+    margin-bottom: 0.5vh;
+}
+
+.first-span{
+    margin-top: 3.8vh;
+    margin-left: 0.2vw;
+    margin-right: 0.4vw;
+}
+
+.box a img{
+    border-radius: 5%;
+    height: inherit;
+}
+
+.box img:hover{
+    opacity: 0.7;
+}
+
+.second-span{
+    margin-top: 3.8vh;
+    margin-left: 1vw;
+}
+
+.box i{
+    margin-right: 3vw;
+    /* position: absolute; */
+    position: relative;
+    right: -35vw;
+    top: 4vh;
+}
+
+
+/* RIGHT BODY  */
+
+.right-body{
+    height: 92vh;
+    width: 33vw;
+    border: 1px solid #191414;
+    position: sticky;
+}
+
+.right-head h5{
+    position: relative;
+    right: -25vmax;
+    top: -1vmax;
+}
+
+/* SIMILAR ARTIST SECTION  */
+
+.similar-artist{
+    height: 40vh;
+    width: 31vw;
+    border: 1px solid #191414;
+    margin-bottom: 4vh;
+    padding: 0.4vmax;
+}
+
+
+/* RECENTLY PLAYED  */
+
+.recently-played{
+    height: 46vh;
+    width: 31vmax;
+    border: 1px solid #191414;
+    padding: 0vmax;
+    position: sticky;
+    overflow: auto;
+    overflow-x:hidden;
+}
+
+
+.recent-songs{
+    height: 28vmax;
+    display: flexbox;
+    position: sticky;
+    margin-bottom: 1vh;
+}
+
+.recent-box{
+    height: 10vh;
+    width: inherit;
+    padding: .2vmax;
+    display: flex;
+    margin-bottom: 0.5vh;
+}
+
+.recent-first-span{
+    margin-top: 3.8vh;
+    margin-left: 0.2vw;
+    margin-right: 0.4vw;
+}
+
+.recent-box img{
+    border-radius: 5%;
+    height: inherit;
+}
+
+.recent-box img:hover{
+    opacity: 0.7;
+}
+
+.recent-play-music-right i{
+    position: relative;
+    right: -1vmax;
+    opacity: 0;
+}
+
+.recent-play-music-right i:hover{
+    color: white;
+    opacity: 1;
+}
+
+.recent-second-span{
+    margin-top: 3.8vh;
+    margin-left: 1vw;
+}
+
+.recent-box i{
+    margin-top: 4.2vh;
+    position: absolute;
+    right: 4vw;
+}
+
+
+
+
+
+/* MUSIC BAR */
+
+
+
+.Musicbar{
+    height: 13vh;
+    width: 100vw;
+    background-color: #222c26;
+    position: absolute;
+    /* z-index: 1; */
+    top: 87vh;
+    display: block;
+    padding: 0.4vmax;
+}
+  
+  .Musicbar img{
+    height: inherit;
+    margin-left: 2vw;
+  }
+  
+  .Musicbar .music-title{
+    color: black;
+    position: absolute;
+    margin: 1vmax 2vmax 0vmax 0.6vmax;
+    height: inherit;
+  }
+  .Musicbar .like{
+    position: absolute;
+    top: 28%;
+    right: 80%;
+  }
+  .Musicbar .disable{
+    position: absolute;
+    top: 28%;
+    right: 77.5%;
+  }
+  .Musicbar .pause{
+    font-size: 1.8rem;
+    position: absolute;
+    top: 20%;
+    right: 47%;
+  }
+  .Musicbar .forward{
+    font-size: 1.2rem;
+    position: absolute;
+    top: 25%;
+    right: 43%;
+  }
+  .Musicbar .backward{
+    font-size: 1.2rem;
+    position: absolute;
+    top: 25%;
+    right: 52%;
+  }
+  .Musicbar .shuffle{
+    font-size: 110%;
+    position: absolute;
+    top: 27%;
+    right: 58%;
+  }
+  .Musicbar .repet{
+    position: absolute;
+    top: 27%;
+    right: 38%;
+  }
+  .Musicbar .dot{
+    color: #1DB954;
+    font-size: 0.7rem;
+    position: absolute;
+    top: 67%;
+    right: 50%;
+  }
+  .Musicbar .fir{
+    position: absolute;
+    top: 63%;
+    right: 57%;
+  }
+  .Musicbar .las{
+    position: absolute;
+    top: 63%;
+    right: 38%;
+  }
+  .Musicbar .musicb{
+    height: 7%;
+    width: 16%;
+    background-color: #1DB954;
+    position: absolute;
+    top: 70%;
+    right: 40.7%;
+    border-radius: 9%;
+  }
+  .Musicbar .musict{
+    height: 7%;
+    width: 10%;
+    background-color: white;
+    position: absolute;
+    top: 70%;
+    right: 40.7%;
+    border-radius: 9%;
+  }
+  .Musicbar .speaker{
+    position: absolute;
+    top: 40%;
+    right: 15%;
+  }
+  .Musicbar .screenb{
+    position: absolute;
+    top: 40%;
+    right: 3%;
+  }
+  .Musicbar .down{
+    position: absolute;
+    top: 40%;
+    right: 18%;
+  }
+  .Musicbar .musicb1{
+    height: 5%;
+    width: 7%;
+    background-color: #1DB954;
+    position: absolute;
+    top: 45.2%;
+    right: 7%;
+    border-radius: 9%;
+  }
+  .Musicbar .musict1{
+    height: 5%;
+    width: 4%;
+    background-color: white;
+    position: absolute;
+    top: 45.2%;
+    right: 7%;
+    border-radius: 9%;
+  }
+  .Musicbar .dot1{
+    color: #1DB954;
+    font-size: 0.6rem;
+    position: absolute;
+    top: 43.2%;
+    right: 10.6%;
+    border-radius: 9%;
+  }
+  
